@@ -4,15 +4,8 @@
     "module": "commonjs",
     "strict": true,
     "moduleResolution": "node",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "typeRoots": ["node_modules/@types"],
     "esModuleInterop": true,
-    "types": [
-      "node",
-      "@wdio/sync",
-      "@wdio/mocha-framework",
-      "chai"
-    ]
+    "types": ["node", "@wdio/sync", "@wdio/jasmine-framework", "jasmine"]
   }
 }

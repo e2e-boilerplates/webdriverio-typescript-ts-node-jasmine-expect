@@ -1,4 +1,4 @@
-name: webdriverio-typescript-ts-node-mocha-chai
+name: webdriverio-typescript-ts-node-jasmine-expect
 
 on:
   push:
