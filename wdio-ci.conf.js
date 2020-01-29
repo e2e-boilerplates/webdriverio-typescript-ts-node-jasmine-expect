@@ -14,10 +14,10 @@ exports.config = {
   ],
   logLevel: "silent",
   services: ["chromedriver"],
-  framework: "mocha",
+  framework: "jasmine",
   reporters: ["dot"],
-  mochaOpts: {
-    timeout: 60000
+  jasmineNodeOpts: {
+    defaultTimeoutInterval: 60000
   },
   before: function(capabilities, specs) {
     require("ts-node").register({ files: true });
