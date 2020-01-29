@@ -22,7 +22,7 @@
   "author": "Girma Nigusse",
   "license": "MIT",
   "devDependencies": {
-    "@types/jasmine": "^3.5.2",
+    "@types/jasmine": "3.5.2",
     "@types/node": "12.12.26",
     "@wdio/cli": "5.18.5",
     "@wdio/dot-reporter": "5.16.5",
@@ -31,7 +31,7 @@
     "@wdio/sync": "5.18.5",
     "chromedriver": "79.0.2",
     "husky": "4.2.1",
-    "jasmine": "^3.5.0",
+    "jasmine": "3.5.0",
     "lint-staged": "10.0.3",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
