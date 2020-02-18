@@ -1,4 +1,4 @@
-exports.config = {
+const headed = {
   runner: "local",
   path: "/",
   specs: ["./spec/*.spec.ts"],
@@ -18,3 +18,31 @@ exports.config = {
     require("ts-node").register({ files: true });
   }
 };
+
+const headless = {
+  runner: "local",
+  path: "/",
+  specs: ["./spec/*.spec.ts"],
+  capabilities: [
+    {
+      browserName: "chrome",
+      "goog:chromeOptions": {
+        args: ["--headless", "--disable-gpu"]
+      }
+    }
+  ],
+  logLevel: "silent",
+  services: ["chromedriver"],
+  framework: "jasmine",
+  reporters: ["dot"],
+  jasmineNodeOpts: {
+    defaultTimeoutInterval: 60000
+  },
+  before: function(capabilities, specs) {
+    require("ts-node").register({ files: true });
+  }
+};
+
+const config = process.env.GITHUB_ACTIONS ? headless : headed;
+
+exports.config = config;
