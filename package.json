@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "WebdriverIO end-to-end test automation boilerplate, using TypeScript, ES6 modules, ts-node, Jasmine, and Expect",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "webdriverio end-to-end test automation boilerplate.",
   "devDependencies": {
     "@types/jasmine": "3.5.8",
     "@types/node": "12.12.29",
@@ -27,7 +27,12 @@
     }
   },
   "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
     "expect",
+    "integration test",
     "jasmine",
     "ts-node",
     "typescript",
