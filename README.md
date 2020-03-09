@@ -6,7 +6,7 @@ WebdriverIO end-to-end test automation boilerplate, using TypeScript, ts-node, J
 
 ## Getting Started
 
-git clone git@github.com:e2e-boilerplate/webdriverio-typescript-ts-node-jasmine-expect.git
-cd webdriverio-typescript-ts-node-jasmine-expect
-npm install
-npm run test
+    	git clone git@github.com:e2e-boilerplate/webdriverio-typescript-ts-node-jasmine-expect.git
+    	cd webdriverio-typescript-ts-node-jasmine-expect
+    	npm install
+    	npm run test
