@@ -5,7 +5,7 @@
   },
   "description": "WebdriverIO end-to-end test automation boilerplate. using TypeScript, ts-node, Jasmine and Expect.",
   "devDependencies": {
-    "@types/jasmine": "3.5.8",
+    "@types/jasmine": "3.5.9",
     "@types/node": "12.12.29",
     "@wdio/cli": "5.19.0",
     "@wdio/dot-reporter": "5.18.6",
