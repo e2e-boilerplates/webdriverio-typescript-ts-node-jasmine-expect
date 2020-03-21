@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
     "strict": true,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "types": ["node", "jasmine", "@wdio/sync", "@wdio/jasmine-framework"],
     "typeRoots": ["node_modules/@types"],
-    "esModuleInterop": true,
-    "types": ["node", "@wdio/sync", "@wdio/jasmine-framework", "jasmine"]
+    "outDir": "build",
+    "target": "es5"
   }
 }
