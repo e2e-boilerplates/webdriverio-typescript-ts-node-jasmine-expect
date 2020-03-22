@@ -1,8 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/webdriverio-typescript-ts-node-jasmine-expect/issues"
   },
+  "dependencies": {},
   "description": "WebdriverIO end-to-end test automation boilerplate. using TypeScript, ts-node, Jasmine and Expect.",
   "devDependencies": {
     "@types/jasmine": "3.5.9",
@@ -32,12 +33,7 @@
     }
   },
   "keywords": [
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
     "expect",
-    "integration test",
     "jasmine",
     "ts-node",
     "typescript",
@@ -59,6 +55,5 @@
     "pretty": "npx prettier --no-config './spec/*.ts' --write",
     "test": "npx wdio"
   },
-  "version": "1.0.0",
-  "dependencies": {}
+  "version": "1.0.0"
 }
