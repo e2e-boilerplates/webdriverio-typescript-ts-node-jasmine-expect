@@ -6,7 +6,6 @@
     "types": ["node", "jasmine", "@wdio/sync", "@wdio/jasmine-framework"],
     "typeRoots": ["node_modules/@types"],
     "outDir": "build",
-    "allowSyntheticDefaultImports": true,
     "target": "es5"
   }
 }
