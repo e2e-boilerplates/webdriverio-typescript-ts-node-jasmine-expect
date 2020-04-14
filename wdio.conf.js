@@ -16,6 +16,7 @@ const headed = {
     defaultTimeoutInterval: 60000,
   },
   cucumberOpts: {},
+  // eslint-disable-next-line no-unused-vars
   before: (capabilities, specs) => {
     require("ts-node").register({ files: true });
   },
@@ -42,6 +43,7 @@ const headless = {
     defaultTimeoutInterval: 60000,
   },
   cucumberOpts: {},
+  // eslint-disable-next-line no-unused-vars
   before: (capabilities, specs) => {
     require("ts-node").register({ files: true });
   },
