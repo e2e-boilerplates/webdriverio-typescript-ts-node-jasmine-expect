@@ -33,16 +33,17 @@
     }
   },
   "keywords": [
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
     "expect",
-    "integration test",
     "jasmine",
     "ts-node",
     "typescript",
-    "webdriverio"
+    "webdriverio",
+    "e2e",
+    "e2e tests",
+    "boilerplate",
+    "integration test",
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
