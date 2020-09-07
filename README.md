@@ -2,7 +2,7 @@
     
 # WebdriverIO Boilerplate
     
-WebdriverIO end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), [ts-jest](https://github.com/TypeStrong/ts-node), [Jasmine](https://jasmine.github.io) and Expect.. Clone or fork this repository.
+WebdriverIO end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), [ts-jest](https://github.com/TypeStrong/ts-node), [Jasmine](https://jasmine.github.io) and Expect. Clone or fork this repository.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/webdriverio-typescript-ts-node-jasmine-expect.git
